@@ -1,37 +1,61 @@
 * {
     --test-border: 3px solid #eb4034;
-    
 }
 
 body {
     display: flex;
+    align-items: center;
     height: 100vh;
     background-color: #e3e5f0;
 }
 
 .content-left {
-    border: var(--test-border);
+   height: 100vh;
 }
 
-.content-right {
-    top: 25%;
-    position: relative;
+img {
+    height: 100%;
+    overflow-x: clip;
+}
+
+p {
+    margin-left: 30px;
 }
 
 .intro {
     font-size: 17px;
     font-weight: 800;
+    margin-bottom: 20px;
 }
 
 form .form-card {
     background-color: #ffffff;
+    padding: 10px 0px 20px 30px;
 }
 
 form .form-inputs {
     display: flex;
+    gap: 40px;
 }
 
 form .input-pair {
     display: flex;
     flex-direction: column;
+    margin-top: 15px;
+}
+
+input {
+    width: 200px;
+}
+
+button {
+    margin: 20px 0px 10px 30px;
+    padding: 5px 30px 5px 30px;
+    border-radius: 10px;
+    background-color: #3849e3;
+    color: #ffffff;
+}
+
+.log-in {
+    font-size: 15px;
 }

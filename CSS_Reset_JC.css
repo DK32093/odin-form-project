@@ -8,6 +8,7 @@
 
 * {
   margin: 0;
+  padding: 0;
 }
 
 body {
@@ -19,7 +20,7 @@ body {
 
 img, picture, video, canvas, svg {
   display: block;
-  max-width: 100%;
+  /* max-width: 100%; removed to prevent flexing*/
 }
 
 input, button, textarea, select {
