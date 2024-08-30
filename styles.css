@@ -11,11 +11,26 @@ body {
 
 .content-left {
    height: 100vh;
+   max-width: 400px;
+   overflow-x: clip;
+   position: relative;
 }
 
 img {
     height: 100%;
-    overflow-x: clip;
+}
+
+.photo-credit {
+    font-size: 14px;
+    color: #ffffff;
+    position: absolute;
+    bottom: 3%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.photo-credit a {
+    color: #ffffff;
 }
 
 p {
@@ -24,13 +39,14 @@ p {
 
 .intro {
     font-size: 17px;
-    font-weight: 800;
+    font-weight: 650;
     margin-bottom: 20px;
 }
 
 form .form-card {
     background-color: #ffffff;
     padding: 10px 0px 20px 30px;
+    margin-top: 40px;
 }
 
 form .form-inputs {
