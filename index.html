@@ -9,41 +9,44 @@
     <script src="javascript.js" defer></script>
 </head>
 <body>
-    <div class="left-side">
+    <div class="content-left">
         <img src="images/maxx-2VOiOcSq8sY-unsplash.jpg" width="300px">
         <div class="photo-credit">Photo by <a href="https://unsplash.com/@maxzzerzz?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">maxx ❄</a> on <a href="https://unsplash.com/photos/a-view-of-the-water-from-a-plane-2VOiOcSq8sY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></div>
     </div>
-    <div class="right-side">
-        <p>This is not a real online service! It is a project I created to practice my skills with HTML, CSS, and Javascript. More specifically, forms!</p>
+    <div class="content-right">
+        <p class="intro">This is not a real online service! It is a project I created to practice my skills with HTML, CSS, and Javascript. More specifically, forms!</p>
+        <p class="intro">Let's do this!</p>
         <form>
-            <h1>Create your account below!</h1>
-            <div class="form-inputs">
-                <div class="form-column1">
-                    <div class="input-pair">
-                        <label for="fname">First Name<span aria-label="required">*</span></label>
-                        <input type="text" id="fname" name="first_name" required>
+            <div class="form-card">
+                <h2>Create your account below!</h2>
+                <div class="form-inputs">
+                    <div class="form-column1">
+                        <div class="input-pair">
+                            <label for="fname">First Name<span aria-label="required">*</span></label>
+                            <input type="text" id="fname" name="first_name" required>
+                        </div>
+                        <div class="input-pair">
+                            <label for="email">Email<span aria-label="required">*</span></label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="input-pair">
+                            <label for="pass">Password<span aria-label="required">*</span></label>
+                            <input type="password" id="pass" name="password" required>
+                        </div>
                     </div>
-                    <div class="input-pair">
-                        <label for="email">Email<span aria-label="required">*</span></label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="input-pair">
-                        <label for="pass">Password<span aria-label="required">*</span></label>
-                        <input type="password" id="pass" name="password" required>
-                    </div>
-                </div>
-                <div class="form-column2">
-                    <div class="input-pair">
-                        <label for="lname">Last Name<span aria-label="required">*</span></label>
-                        <input type="text" id="lname" name="fast_name" required>
-                    </div>
-                    <div class="input-pair">
-                        <label for="phone">Phone Number</label>
-                        <input type="tel" id="phone" name="phone">
-                    </div>
-                    <div class="input-pair">
-                        <label for="cpass">Confirm Password<span aria-label="required">*</span></label>
-                        <input type="password" id="cpass" required>
+                    <div class="form-column2">
+                        <div class="input-pair">
+                            <label for="lname">Last Name<span aria-label="required">*</span></label>
+                            <input type="text" id="lname" name="fast_name" required>
+                        </div>
+                        <div class="input-pair">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="input-pair">
+                            <label for="cpass">Confirm Password<span aria-label="required">*</span></label>
+                            <input type="password" id="cpass" required>
+                        </div>
                     </div>
                 </div>
             </div>
