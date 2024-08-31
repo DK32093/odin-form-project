@@ -25,6 +25,7 @@
         <form>
             <div class="form-card">
                 <h2>Create your account below!</h2>
+                <p>*Indicates required field</p>
                 <div class="form-inputs">
                     <div class="form-column1">
                         <div class="input-pair">
@@ -47,7 +48,10 @@
                         </div>
                         <div class="input-pair">
                             <label for="phone">Phone Number</label>
-                            <input type="tel" id="phone" name="phone">
+                            <input type="tel" 
+                                   id="phone" 
+                                   name="phone" 
+                                   pattern="([1-9]{1}[0-9]{9}|[1-9]{1}[0-9]{11})">
                         </div>
                         <div class="input-pair">
                             <label for="cpass">Confirm Password<span aria-label="required">*</span></label>
