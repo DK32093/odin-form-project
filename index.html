@@ -37,8 +37,13 @@
                             <input type="email" id="email" name="email" required>
                         </div>
                         <div class="input-pair">
-                            <label for="pass">Password<span aria-label="required">*</span></label>
-                            <input type="password" id="pass" name="password" required>
+                            <label for="pass" data-help="¿Are you 11 from Stranger Things?">Password<span aria-label="required">*</span></label>
+                            <input type="password" 
+                                   id="pass" 
+                                   name="password" 
+                                   required
+                                   minlength="8"
+                                   pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\$%\^&\*])(?=.{8,})">
                         </div>
                     </div>
                     <div class="form-column2">

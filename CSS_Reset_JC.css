@@ -29,7 +29,7 @@ input, button, textarea, select {
 
 p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
-  width: clamp(45ch, 50%, 75ch);
+  -width: clamp(45ch, 50%, 75ch);
 }
 
 #root, #__next {
