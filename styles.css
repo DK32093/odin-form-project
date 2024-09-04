@@ -99,6 +99,11 @@ form .input-pair {
     margin-top: 15px;
 }
 
+
+.pass-req {
+    font-size: 12px;
+}
+
 input {
     width: 200px;
     border-radius: 5px;
@@ -109,12 +114,18 @@ button {
     margin: 20px 0px 10px 30px;
     padding: 5px 30px 5px 30px;
     border-radius: 10px;
-    background-color: #3849e3;
+    background-color: #438EA8;
     color: #ffffff;
+    font-weight: 500;
 }
 
 .log-in {
     font-size: 15px;
+}
+
+.log-in a {
+    color: #438EA8;
+    font-weight: 600;
 }
 
 /* Pseudo styles */
@@ -124,6 +135,9 @@ button {
     border: 1px solid #ff0000;
  }
 
+ input[type="password"]:valid {
+    border: 1px solid #5dcc25;
+ }
 
  input:focus {
     border: 1px solid #193ef7;

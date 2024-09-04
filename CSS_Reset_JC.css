@@ -1,5 +1,5 @@
 /*
-  Josh's Custom CSS Reset
+  Modified from Josh's Custom CSS Reset
   https://www.joshwcomeau.com/css/custom-css-reset/
 */
 *, *::before, *::after {
@@ -20,7 +20,7 @@ body {
 
 img, picture, video, canvas, svg {
   display: block;
-  /* max-width: 100%; removed to prevent flexing*/
+  /* max-width: 100%; removed to prevent flexing */
 }
 
 input, button, textarea, select {
@@ -29,7 +29,7 @@ input, button, textarea, select {
 
 p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
-  -width: clamp(45ch, 50%, 75ch);
+  /* width: clamp(45ch, 50%, 75ch); be aware of impact on parent width */
 }
 
 #root, #__next {

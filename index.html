@@ -37,13 +37,13 @@
                             <input type="email" id="email" name="email" required>
                         </div>
                         <div class="input-pair">
-                            <label for="pass" data-help="¿Are you 11 from Stranger Things?">Password<span aria-label="required">*</span></label>
+                            <label for="pass">Password<span aria-label="required">*</span></label>
+                            <label class="pass-req" for="pass">Minimum of 8 characters, 1 letter, and 1 number</label>
                             <input type="password" 
                                    id="pass" 
                                    name="password" 
                                    required
-                                   minlength="8"
-                                   pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\$%\^&\*])(?=.{8,})">
+                                   pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$">
                         </div>
                     </div>
                     <div class="form-column2">
@@ -60,7 +60,11 @@
                         </div>
                         <div class="input-pair">
                             <label for="cpass">Confirm Password<span aria-label="required">*</span></label>
-                            <input type="password" id="cpass" required>
+                            <label class="pass-req" for="pass">Passwords must match</label>
+                            <input type="password" 
+                                   id="cpass" 
+                                   required
+                                   pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$">
                         </div>
                     </div>
                 </div>
