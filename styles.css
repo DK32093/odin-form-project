@@ -83,7 +83,7 @@ body {
 
 form .form-card {
     background-color: #ffffff;
-    padding: 10px 0px 20px 30px;
+    padding: 10px 20px 20px 30px;
     margin-top: 40px;
     box-shadow: 3px 3px 5px #cac9c9;
 }
@@ -98,7 +98,6 @@ form .input-pair {
     flex-direction: column;
     margin-top: 15px;
 }
-
 
 .pass-req {
     font-size: 12px;
@@ -130,7 +129,6 @@ button {
 
 /* Pseudo styles */
  
-
  input[type="password"]:invalid, input[type="tel"]:invalid {
     border: 1px solid #ff0000;
  }
