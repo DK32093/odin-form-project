@@ -42,7 +42,7 @@ body {
 
 @font-face {
     font-family: misproject;
-    src: url(../../fonts/Misproject/Truetype/MISPROJECT.TTF);
+    src: url(fonts/Misproject/Truetype/MISPROJECT.TTF);
 }
 
 .logo-text {
